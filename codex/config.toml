@@ -1,0 +1,6 @@
+# 追加到 ~/.codex/config.toml（或项目里的 .codex/config.toml）
+# token 不写在文件里：先在 shell 配置里 export CHARLESAI_TOKEN=cai_xxx
+[mcp_servers.charlesai]
+url = "https://club.yongxianshi.cn/mcp"
+bearer_token_env_var = "CHARLESAI_TOKEN"
+tool_timeout_sec = 300

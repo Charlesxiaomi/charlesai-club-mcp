@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "charlesai": {
+      "type": "http",
+      "url": "https://club.yongxianshi.cn/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CHARLESAI_TOKEN}"
+      }
+    }
+  }
+}

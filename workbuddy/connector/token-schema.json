@@ -1,0 +1,22 @@
+{
+  "title": "CharlesAI 工作坊授权",
+  "title_en": "CharlesAI Club Authorization",
+  "description": "填入你在 CharlesAI 工作坊会员中心生成的 MCP token，用于发布静态站和使用云端容器。Token 只保存在本机 ~/.workbuddy 下，泄露了可以在会员中心一键重置。",
+  "description_en": "Paste the MCP token generated in the CharlesAI Club dashboard. The token is stored locally in ~/.workbuddy only and can be reset anytime.",
+  "docUrl": "https://club.yongxianshi.cn/dashboard",
+  "docLabel": "去会员中心生成 token",
+  "docLabel_en": "Generate a token in the dashboard",
+  "fields": [
+    {
+      "key": "CHARLESAI_TOKEN",
+      "label": "MCP Token",
+      "label_en": "MCP Token",
+      "placeholder": "cai_ 开头，在会员中心「建站 MCP」里生成",
+      "placeholder_en": "Starts with cai_, generated in the dashboard",
+      "type": "password",
+      "required": true,
+      "description": "会员到期后自动停用，续费后恢复。",
+      "description_en": "Disabled automatically when membership expires."
+    }
+  ]
+}

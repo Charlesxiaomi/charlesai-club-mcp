@@ -1,0 +1,23 @@
+{
+  "source": "charlesai-club",
+  "type": "mcp",
+  "name": "CharlesAI 托管建站",
+  "name_zh": "CharlesAI 托管建站",
+  "name_en": "CharlesAI Hosting",
+  "description": "把 HTML 一键发布成可分享的网页，并在隔离容器里跑代码和服务（CharlesAI 工作坊会员专享）。",
+  "description_zh": "把 HTML 一键发布成可分享的网页，并在隔离容器里跑代码和服务（CharlesAI 工作坊会员专享）。",
+  "description_en": "Publish HTML as shareable websites and run code in an isolated container (CharlesAI Club members).",
+  "examples_zh": [
+    "把这个 index.html 发布成网页，给我一个分享链接",
+    "把 dist 目录部署成站点 q3-report，并设访问密码",
+    "在我的容器里起一个 Node 服务，给我公网地址"
+  ],
+  "examples_en": [
+    "Publish this index.html and give me a share link",
+    "Deploy the dist folder as site q3-report with a password",
+    "Start a Node server in my container and give me the public URL"
+  ],
+  "auth_mode": "token",
+  "version": "1.0.0",
+  "minWorkbuddyVersion": "4.24.0"
+}

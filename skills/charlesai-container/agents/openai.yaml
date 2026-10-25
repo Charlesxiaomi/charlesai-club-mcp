@@ -1,0 +1,13 @@
+interface:
+  display_name: "CharlesAI 云端容器"
+  short_description: "在隔离容器里跑代码和服务"
+  default_prompt: "用 $charlesai-container 把这个项目在我的容器里跑起来，给我公网地址。"
+policy:
+  allow_implicit_invocation: true
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "charlesai"
+      description: "CharlesAI 工作坊托管建站 MCP"
+      transport: "streamable_http"
+      url: "https://club.yongxianshi.cn/mcp"

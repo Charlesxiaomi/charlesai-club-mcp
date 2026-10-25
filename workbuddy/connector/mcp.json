@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "charlesai": {
+      "type": "streamableHttp",
+      "url": "https://club.yongxianshi.cn/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CHARLESAI_TOKEN}"
+      },
+      "timeout": 300000
+    }
+  }
+}
